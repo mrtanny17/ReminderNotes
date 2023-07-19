@@ -1,0 +1,29 @@
+name: reminder_note_app
+description: A reminder and note-taking app built with Flutter.
+version: 1.0.0
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^2.0.0
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.0
+  path_provider: ^2.0.3
+  intl: ^0.17.0
+  easy_dynamic_theme: ^2.0.0  # Add easy_dynamic_theme package
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+assets:
+  - android/app/src/main/res/mipmap-mdpi/ic_launcher.png
+  - android/app/src/main/res/mipmap-hdpi/ic_launcher.png
+  - android/app/src/main/res/mipmap-xhdpi/ic_launcher.png
+  - android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png
+  - android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png
+  - ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024.png
+flutter:
+  uses-material-design: true
